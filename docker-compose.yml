@@ -36,7 +36,7 @@ services:
     image: nginx
     container_name: nginx
     ports:
-      - "4280:80"
+      - "80:80"
     volumes:
       - src-laravel:/var/www/html/
       - ./src:/var/www/html
